@@ -1,0 +1,7 @@
+a = input('digita algo aí: ')
+print(type(a))
+print('o que voce disse é alfabético? {}'.format(a.isalpha()))
+print('é alfabético e numérico? {}'.format(a.isalnum()))
+print('ou é só numérico? {}'.format(a.isnumeric()))
+print('está em letras minúsculas? {}'.format(a.islower()))
+print('tem só letras maiúsculas? {}'.format(a.isupper()))

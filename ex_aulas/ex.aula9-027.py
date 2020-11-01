@@ -1,0 +1,7 @@
+nome = str(input('Digite aqui seu nome completo: ')).strip().title()
+#tit = nome.title()
+isplit = nome.split()
+#print(isplit)
+#print(isplit[0])
+#print(isplit[-1])
+print('É um prazer conhecer você, {} {}.'.format(isplit[0], isplit[-1]))
